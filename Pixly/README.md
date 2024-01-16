@@ -32,13 +32,31 @@ The interview starts with a survey for a broad audience within art to gather as 
 ### Survey Questionnaire
 For the questionnaire I sent out a survey to 16 art students to get information from artists to see what artists want and here's there questions and answers to the survey
 
-/Users/adamhenley/Documents/GitHub/School-Tasks/Pixly/READMEASSETS/1.png
-If so, what app do you use?
+# Do you have a place to showcase your art portfolio online
+## 6 Responses
+> - 66% said NO
+> - 33% said 
+
+# If so, what app do you use?
+## 2 Responeses
 > - HTML
 > - google slides
 
+# Is having the ability to search genres for inspiration a good idea?
+## 6 Responses
+> - 100% said YES
+
+# What genre of art do you do?
+## 6 Resposes
+> - Digital
+> - Architecture, Pop art, Realism, Cartoons
+> - Distorsion
+> - The good stuff 
+> - Abstract / digital
+> - Sculpture
 
 As seen in the pie graphs the majority of artists who answered the questions favoured a very secure app with the possibility of arranging their portfolio as they see fit, They also would like to have the option of a website version so that they can access their portfolio on laptop or other devices. I also found out that having a watermark option for their artwork is also highly sought after as to prevent theft of art, they also liked the idea of templates for example a template on how their homepage would look like and/or templates on where the name of the art piece and the artists name would sit relative to enlarging the artwork to see in more detail.
+
 ## Interview
 ### Sarah
 #### 1) What are some features you would like to see on a portfolio app?
@@ -68,6 +86,7 @@ As seen in the pie graphs the majority of artists who answered the questions fav
 
 # Research
 For Research there are a few apps around for specific things for artists an example of this is pinterest is really good for artists to use as a mood board, so what I came up with is to look at what these apps are doing good at and what i could use to improve on with my app, with my example of pinterest is having an page where you can put in a few tags and get shown some images which you can take a few and pin them on a mind map/mood board so artists can make an expandable page of art they like to use for inspiration
+
 ## Similar working solutions
 - Instagram 
 - Pinterest
