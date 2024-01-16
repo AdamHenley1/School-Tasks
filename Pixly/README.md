@@ -32,6 +32,10 @@ The interview starts with a survey for a broad audience within art to gather as 
 ### Survey Questionnaire
 For the questionnaire I sent out a survey to 16 art students to get information from artists to see what artists want and here's there questions and answers to the survey
 
+/Users/adamhenley/Documents/GitHub/School-Tasks/Pixly/READMEASSETS/1.png
+If so, what app do you use?
+> - HTML
+> - google slides
 
 
 As seen in the pie graphs the majority of artists who answered the questions favoured a very secure app with the possibility of arranging their portfolio as they see fit, They also would like to have the option of a website version so that they can access their portfolio on laptop or other devices. I also found out that having a watermark option for their artwork is also highly sought after as to prevent theft of art, they also liked the idea of templates for example a template on how their homepage would look like and/or templates on where the name of the art piece and the artists name would sit relative to enlarging the artwork to see in more detail.
