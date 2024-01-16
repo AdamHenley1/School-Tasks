@@ -2,45 +2,6 @@
 Pixly is my A-Level coding project it is an ios application for artists to represent and show off their work to other like minded artists and to gain commition requests
 
 
-
-# Contents	1
-Problem Identification	2
-Stakeholders	2
-Interview	2
-Survey Questions	4
-Interview Questions	7
-Interview	7
-Research	8
-Similar working solutions	8
-Features of proposed solution	8
-Further meeting with stakeholders	8
-Requirements	8
-Software and Hardware requirements	8
-Stakeholder requirements	9
-Success Criteria	9
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Analysis
 
 Problem Identification
