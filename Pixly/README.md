@@ -35,7 +35,7 @@ For the questionnaire I sent out a survey to 16 art students to get information 
 # Do you have a place to showcase your art portfolio online
 ## 6 Responses
 > - 66% said NO
-> - 33% said 
+> - 33% said YES
 
 # If so, what app do you use?
 ## 2 Responeses
