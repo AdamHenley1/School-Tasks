@@ -1,5 +1,5 @@
 # Pixly
-Pixly is my A-Level coding project it is an ios application for artists to represent and show off their work to other like minded artists and to gain commition requests
+Pixly is my A-Level coding project it is an ios application for artists to represent and show off their work to other like minded artists and to gain commition requests.   Only the main parts of my code will be on here so the assests and other things required to fully build it wont be here.
 
 
 
@@ -54,6 +54,8 @@ For the questionnaire I sent out a survey to 16 art students to get information 
 > - The good stuff 
 > - Abstract / digital
 > - Sculpture
+
+PUT THE REST OF THE PIE CHARTS HERE
 
 As seen in the pie graphs the majority of artists who answered the questions favoured a very secure app with the possibility of arranging their portfolio as they see fit, They also would like to have the option of a website version so that they can access their portfolio on laptop or other devices. I also found out that having a watermark option for their artwork is also highly sought after as to prevent theft of art, they also liked the idea of templates for example a template on how their homepage would look like and/or templates on where the name of the art piece and the artists name would sit relative to enlarging the artwork to see in more detail.
 
