@@ -4,19 +4,19 @@ Pixly is my A-Level coding project it is an ios application for artists to repre
 
 
 # Contents	
-## Problem Identification	2
-### Stakeholders	2
-## Interview	2
-### Survey Questions	4
+## Problem Identification	
+### Stakeholders	
+## Interview	
+### Survey Questions	
 ### Interview
-## Research	8
-### Similar working solutions	8
-### Features of proposed solution	8
-### Further meeting with stakeholders	8
-## Requirements	8
-### Software and Hardware requirements	8
-### Stakeholder requirements	9
-## Success Criteria	9
+## Research	
+### Similar working solutions	
+### Features of proposed solution	
+### Further meeting with stakeholders	
+## Requirements	
+### Software and Hardware requirements	
+### Stakeholder requirements	
+## Success Criteria	
 
 
 # Analysis
@@ -37,11 +37,11 @@ For the questionnaire I sent out a survey to 16 art students to get information 
 As seen in the pie graphs the majority of artists who answered the questions favoured a very secure app with the possibility of arranging their portfolio as they see fit, They also would like to have the option of a website version so that they can access their portfolio on laptop or other devices. I also found out that having a watermark option for their artwork is also highly sought after as to prevent theft of art, they also liked the idea of templates for example a template on how their homepage would look like and/or templates on where the name of the art piece and the artists name would sit relative to enlarging the artwork to see in more detail.
 ## Interview
 ### Sarah
-#### 1)What are some features you would like to see on a portfolio app?
+#### 1) What are some features you would like to see on a portfolio app?
 > answer here
-#### 2)With Watermarks being an option to add onto your artwork to prevent people stealing your work, do you think it should be placed in the bottom right automatically of give the artists the ability to place the watermark where they see fit e.g really big (maybe have no watermarks on profile page as they are small and downscaled but when you go to see the image at large have an opaque watermark of the artists name)
+#### 2) With Watermarks being an option to add onto your artwork to prevent people stealing your work, do you think it should be placed in the bottom right automatically of give the artists the ability to place the watermark where they see fit e.g really big (maybe have no watermarks on profile page as they are small and downscaled but when you go to see the image at large have an opaque watermark of the artists name)
 > answer here
-#### 3)Would you put information such as education and real name in if there was an option to? (this is for businesses to see your education email and your actual name ect)
+#### 3) Would you put information such as education and real name in if there was an option to? (this is for businesses to see your education email and your actual name ect)
 > answer here
 #### 4) Do you have anything else to add?
 > answer here
@@ -115,8 +115,6 @@ Screenshot of an account with dummy artwork and a fully setup account
 # Development And Testing
 
 # Evaluation
-
-# Final Code
 
 
 
