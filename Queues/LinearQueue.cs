@@ -1,14 +1,19 @@
 using systems;
 class LinearQueue
   {
-    static EnQueue()
+    void EnQueue()
     {
-          
+         /*check for if the item list is full*/ 
 
     }
-    static DeQueue()
+    void DeQueue()
     {
+          /*check for if the item list is empty*/
           
     }
     
   }
+
+class main{
+  
+}
