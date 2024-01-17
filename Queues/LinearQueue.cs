@@ -1,19 +1,37 @@
 using systems;
-class LinearQueue
+class MainProgram
   {
-    void EnQueue()
+    public static void Main(string[] args)
     {
-         /*check for if the item list is full*/ 
-
+     LinearQueue<string> lqs = new LinearQueue<string>(5); 
     }
-    void DeQueue()
-    {
-          /*check for if the item list is empty*/
-          
-    }
-    
   }
 
-class main{
+// Linear Queue -------------------------------------------------
+public class LinearQueue<T>
+{
+  public int Max;
+  public int FP;
+  public int RP; 
+
+  private T[] Data;
   
-}
+  public LinearQueue(int Max)
+  {
+    Data = new T[Max];
+    M = Max;
+    FP = 0;
+    RP = -1;
+  }
+  
+  public void Enqueue(T i)
+  {    
+    RP += 1;
+    Data[RP] = i;
+  }  
+  public void DeQueue()
+  {
+    FP += 1;
+    M += 1;
+  }
+
