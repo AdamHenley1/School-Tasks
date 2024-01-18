@@ -7,22 +7,26 @@ class MainProgram
         Linear.Enqueue("1");
         Linear.Enqueue("3");
         Linear.Enqueue("64");
+        Linear.IsFull();
         Linear.Enqueue("2");
         Linear.Enqueue("4");
         Linear.Enqueue("6");
+        Linear.IsFull();
         Linear.peek();
         Linear.DeQueue();
         Linear.peek();
         Linear.DeQueue();
         Linear.DeQueue();
+        Linear.IsEmpty();
         Linear.DeQueue();
         Linear.DeQueue();
+        Linear.IsEmpty();
         Linear.peek();
         Linear.Enqueue("6");
     }
 }
 
-// Linear Queue -------------------------------------------------
+// Linear Queue
 public class LinearQueue<T>
 {
     public int Maxs;
@@ -34,14 +38,13 @@ public class LinearQueue<T>
     public LinearQueue(int Max)
     {
         Data = new T[Max];
-        Maxs = Max;
-        FP = 0;
+        Maxs = Max - 1;
         RP = -1;
     }
 
     public void Enqueue(T i)
     {
-        if (RP == Maxs - 1)
+        if (RP == Maxs)
         {
             Console.WriteLine("Error Cannot Add Any More To The Queue");
         }
@@ -60,10 +63,11 @@ public class LinearQueue<T>
         }
         else
         {
-            Console.WriteLine("The Current Task Is "+Data[FP]);
+            Console.WriteLine("The Current Task Is " + Data[FP]);
         }
     }
-    public void DeQueue() {
+    public void DeQueue()
+    {
         if (FP > RP)
         {
             Console.WriteLine("Error The Queue Is Empty");
@@ -72,6 +76,28 @@ public class LinearQueue<T>
         {
             Console.WriteLine("executing " + Data[FP]);
             FP += 1;
+        }
+    }
+    public void IsFull()
+    {
+        if (RP == Maxs)
+        {
+            Console.WriteLine("True");
+        }
+        else
+        {
+            Console.WriteLine("False");
+        }
+    }
+    public void IsEmpty()
+    {
+        if (RP < FP)
+        {
+            Console.WriteLine("True");
+        }
+        else
+        {
+            Console.WriteLine("False");
         }
     }
 }
