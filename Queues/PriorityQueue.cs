@@ -2,9 +2,6 @@ class MainProgram
 {
     public static void Main(string[] args)
     {
-        Stack<string> Stack = new Stack<string>(5);
-        LinearQueue<string> Linear = new LinearQueue<string>(5);
-        CircularQueue<string> circ = new CircularQueue<string>(5);
         PriorityQueue<string> prio = new PriorityQueue<string>(5);
 
         prio.Enqueue("yes", 9);
@@ -36,62 +33,90 @@ public class PriorityQueue<B>
 {
     public int Maxs;
     public int count = 0;
-    public int FP = 0;
+    public int RP =0;
 
-    private Tuple<B,int>[] Data;
+    private Tuple<B,int,int>[] Data;
 
     public PriorityQueue(int Max)
     {
         Maxs = Max;
-        Data = new Tuple<B, int>[Maxs];
+        Data = new Tuple<B, int, int>[Maxs];
     }
 
-    public void Enqueue(B item, int Priority)
+    public void Enqueue(B item, int Priority, int date)
     {
-        if (count+1 > Maxs)
+        if (RP == Maxs)
         {
             Console.WriteLine("Error Cannot Add Any More To The Queue");
-            return;
         }
         else
         { 
-            Data[count] = new Tuple<B, int>(item, Priority);
+            Data[RP] = new Tuple<B, int, int>(item, Priority, date);
+            Console.WriteLine("Adding " + Data[RP]);
+            RP += 1;
             count += 1;
-            Console.WriteLine("Adding " + item + Priority);
-            return;
+            if (RP >= 1)
+            {
+                var Sorted = Data
+                    .AsParallel()
+                    .Take(RP)
+                    .OrderBy(tuple => tuple.Item2)
+                    .ThenBy(tuple => tuple.Item3)
+                    .Reverse()
+                    .ToArray();
 
+                Array.Copy(Sorted, Data, RP);
+                return;
+            }
+            
         }
-        var sorted = Data.Skip(FP).Take(count-FP).OrderBy(tuple => tuple.Item2).ToArray();
-        Array.Copy(sorted, Data, count);
     }
     public void peek()
     {
-        if (count == 0)
+        if (RP == 0)
         {
             Console.WriteLine("Error: Queue is empty");
         }
         else
         {
-            Console.WriteLine("The Current Task Is " + Data[FP-1].Item1);
+            Console.WriteLine("The Current Task Is " + Data[0]);
             //Console.WriteLine(FP);
         }
     }
     public void DeQueue()
     { 
-        if (count == 0)
+        if (RP == 0)
         {
             Console.WriteLine("Error: Queue is Empty");
         }
         else
         {
             //Console.WriteLine("executing " + Data[FP].Item1);
-            FP += 1;
-            count -= 1;
+            //Data[0] = null;
+            Console.WriteLine("Dequeing " + Data[0]);
+            var decrease = Data.Skip(1).ToArray();
+            Array.Copy(decrease, Data, RP-1);
+            if (RP > 1)
+            {
+                var sortedkk = Data
+                    .Take(RP)
+                    .OrderBy(tuple => tuple.Item2)
+                    .ThenBy(tuple => tuple.Item3)
+                    .Reverse()
+                    .ToArray();
+
+                Array.Copy(sortedkk, Data, RP);
+                RP -= 1;
+            }
+            else
+            {
+                RP -= 1;
+            }
         }
     }
     public void IsFull()
     {
-        if (count == Maxs)
+        if (RP == Maxs)
         {
             Console.WriteLine("Queue is Full");
         }
@@ -102,7 +127,7 @@ public class PriorityQueue<B>
     }
     public void IsEmpty()
     {
-        if (count == 0)
+        if (RP == 0)
         {
             Console.WriteLine("Queue is Empty");
         }
