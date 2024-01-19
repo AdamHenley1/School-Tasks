@@ -62,7 +62,6 @@ public class PriorityQueue<B>
                     .Take(RP)
                     .OrderBy(tuple => tuple.Item2)
                     .ThenBy(tuple => tuple.Item3)
-                    .Reverse()
                     .ToArray();
 
                 Array.Copy(Sorted, Data, RP);
@@ -102,7 +101,6 @@ public class PriorityQueue<B>
                     .Take(RP)
                     .OrderBy(tuple => tuple.Item2)
                     .ThenBy(tuple => tuple.Item3)
-                    .Reverse()
                     .ToArray();
 
                 Array.Copy(sortedkk, Data, RP);
