@@ -1,27 +1,9 @@
 # Pixly
 Pixly is my A-Level coding project it is an ios application for artists to represent and show off their work to other like minded artists and to gain commition requests.   Only the main parts of my code will be on here so the assests and other things required to fully build it wont be here.
 
-
-
-# Contents	
-## Problem Identification	
-### Stakeholders	
-## Interview	
-### Survey Questions	
-### Interview
-## Research	
-### Similar working solutions	
-### Features of proposed solution	
-### Further meeting with stakeholders	
-## Requirements	
-### Software and Hardware requirements	
-### Stakeholder requirements	
-## Success Criteria	
-
-
 # Analysis
 
-## Problem Identification
+## -Problem Identification
 Currently there is no individual platform for artists to create a portfolio to showcase their artwork exclusively without potentially being overshadowed by other content such as fitness and other genres unrelated to art. If an artist had all their work to show through an app with the ease of a username or link then it would make the process of representing art a lot easier. It could also allow businesses to search for genres of art and look to hire someone in that genre.
 The features that the app will consist of is the ability to search for specific usernames and hashtags, it will also have a moodboard option with genre selection for artists to see other peoples arts in the same field of art to be able to obtain ideas.
 Stakeholders
@@ -32,22 +14,23 @@ The interview starts with a survey for a broad audience within art to gather as 
 ### Survey Questionnaire
 For the questionnaire I sent out a survey to 16 art students to get information from artists to see what artists want and here's there questions and answers to the survey
 
-# Do you have a place to showcase your art portfolio online
+#### Do you have a place to showcase your art portfolio online?
+
 [![Screenshot-2024-03-07-at-15-44-41.png](https://i.postimg.cc/VkT5pc8g/Screenshot-2024-03-07-at-15-44-41.png)](https://postimg.cc/JsN1HvtH)
 ## 6 Responses
 > - 66% said NO
 > - 33% said YES
 
-# If so, what app do you use?
+#### If so, what app do you use?
 ## 2 Responeses
 > - HTML
 > - google slides
 
-# Is having the ability to search genres for inspiration a good idea?
+#### Is having the ability to search genres for inspiration a good idea?
 ## 6 Responses
 > - 100% said YES
 
-# What genre of art do you do?
+#### What genre of art do you do?
 ## 6 Resposes
 > - Digital
 > - Architecture, Pop art, Realism, Cartoons
