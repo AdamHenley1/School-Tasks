@@ -33,6 +33,7 @@ The interview starts with a survey for a broad audience within art to gather as 
 For the questionnaire I sent out a survey to 16 art students to get information from artists to see what artists want and here's there questions and answers to the survey
 
 # Do you have a place to showcase your art portfolio online
+[Screenshot-2024-03-07-at-15-44-41.png](https://postimg.cc/JsN1HvtH)
 ## 6 Responses
 > - 66% said NO
 > - 33% said YES
