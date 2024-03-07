@@ -11,27 +11,29 @@ For the Stakeholders I initially sent out a survey to 16 art students to fill in
 
 ### Interview
 The interview starts with a survey for a broad audience within art to gather as much information as possible then a few members will be picked out, to ask for more detailed and more specific questions to get even more information to aid me in the User Interface, as well as features and other things they would like to see added to the app.
+
 ### Survey Questionnaire
+
 For the questionnaire I sent out a survey to 16 art students to get information from artists to see what artists want and here's there questions and answers to the survey
 
 #### Do you have a place to showcase your art portfolio online?
 
 [![Screenshot-2024-03-07-at-15-44-41.png](https://i.postimg.cc/VkT5pc8g/Screenshot-2024-03-07-at-15-44-41.png)](https://postimg.cc/JsN1HvtH)
-## 6 Responses
+##### 6 Responses
 > - 66% said NO
 > - 33% said YES
 
 #### If so, what app do you use?
-## 2 Responeses
+##### 2 Responses
 > - HTML
 > - google slides
 
 #### Is having the ability to search genres for inspiration a good idea?
-## 6 Responses
+##### 6 Responses
 > - 100% said YES
 
 #### What genre of art do you do?
-## 6 Resposes
+##### 6 Resposes
 > - Digital
 > - Architecture, Pop art, Realism, Cartoons
 > - Distorsion
