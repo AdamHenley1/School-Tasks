@@ -3,7 +3,7 @@ Pixly is my A-Level coding project it is an ios application for artists to repre
 
 # Analysis
 
-## -Problem Identification
+## - Problem Identification
 Currently there is no individual platform for artists to create a portfolio to showcase their artwork exclusively without potentially being overshadowed by other content such as fitness and other genres unrelated to art. If an artist had all their work to show through an app with the ease of a username or link then it would make the process of representing art a lot easier. It could also allow businesses to search for genres of art and look to hire someone in that genre.
 The features that the app will consist of is the ability to search for specific usernames and hashtags, it will also have a moodboard option with genre selection for artists to see other peoples arts in the same field of art to be able to obtain ideas.
 Stakeholders
