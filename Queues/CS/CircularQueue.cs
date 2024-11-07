@@ -47,8 +47,7 @@ public class CircularQueue<J>
     public CircularQueue(int Max)
     {
         Data = new J[Max];
-        Maxs = Max
-    ;
+        Maxs = Max;
         RP = -1;
         count = 0;
     }
@@ -74,7 +73,7 @@ public class CircularQueue<J>
             count += 1;
         }
     }
-    public void peek()
+    public void Peek()
     {
         Console.WriteLine("The Current Task Is " + Data[FP]);
     }
